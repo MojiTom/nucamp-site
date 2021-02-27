@@ -37,7 +37,7 @@
         </div>
     </header>
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top"> <!-- .sticky-top and .fixed-top are different. -->
         <div class="container">
             <!-- Button Notes: This replaces the nav links w/ a button at sm & xs. The ml-auto class
             moves the button to the right of the navbar. The data-target value should also be in the 
@@ -104,15 +104,15 @@
             </div>
         </div>
 
-        <div class="row row-content"> <!-- New Row for 2/27 Class -->
-            <div class="column col-sm-6 mx-auto">
+        <div class="row row-content align-items-center"> <!-- New Row for 2/27 Class -->
+            <div class="col-sm-6 mx-auto">
                 <div class="card">
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3> <!-- This needs to be above '.card-body' -->
                         <div class="card-body">
                         <form action="" id="formReserve">
                             <div class="row form-group">
                                 <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
-                                <div class="col">
+                                <div class="col-sm-6"> <!-- col-sm-6 here? -->
                                     <select name="numCampers" id="numCampers" class="form-control">
                                         <option value="selected">Select ...</option>
                                         <option value="1">1</option>
