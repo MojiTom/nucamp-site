@@ -41,6 +41,14 @@ a, a:hover {
     text-decoration: none;
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* rgba allows alpha channel */
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
 /* .tab-content { -- Used when I set up tabs. Not needed when tabs replaced by accordion.
     border: 1px solid #DDD;
     border-top: none;
