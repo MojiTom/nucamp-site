@@ -49,6 +49,13 @@ a, a:hover {
     border: solid #5637DD;
 }
 
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
 /* .tab-content { -- Used when I set up tabs. Not needed when tabs replaced by accordion.
     border: 1px solid #DDD;
     border-top: none;
