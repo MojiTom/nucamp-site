@@ -30,7 +30,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2 mt-4"> <!-- Reserve button - modal code is below -->
-                    <a role="button" class="btn btn-info btn-lg" id="reserveButton">Reserve Campsite</a>
+                    <a role="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#reserveModal">Reserve Campsite</a>
                 </div>
             </div>   
         </div>
@@ -40,7 +40,7 @@
     <div id="reserveModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header bg-info text-white">
                     <h3 class="modal-title">Reserve a Campsite</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -108,7 +108,7 @@
                     <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-lg fa-address-card"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto"> <!-- See the login modal after the navbar -->
-                    <a role="button" id="loginButton">
+                    <a role="button" data-toggle="modal" data-target="#loginModal">
                         <i class="fa fa-sign-in"></i>Login
                     </a>
                 </span>

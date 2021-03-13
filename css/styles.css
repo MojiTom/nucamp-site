@@ -45,6 +45,14 @@ a, a:hover {
   bottom: 0;
   z-index: 100; }
 
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
 /* .tab-content { -- Used when I set up tabs. Not needed when tabs replaced by accordion.
     border: 1px solid #DDD;
     border-top: none;
