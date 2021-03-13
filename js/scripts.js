@@ -14,12 +14,14 @@ $(function() {
         }
     });
 
+    // The class answer used .modal("show"), but it works w/o show as well: .modal()
+
     $("#reserveButton").on("click", function() {
-        $("#reserveModal").modal();
+        $("#reserveModal").modal("show");
     });
 
     $("#loginButton").on("click", function() {
-        $("#loginModal").modal();
+        $("#loginModal").modal("show");
     });
 
    });
